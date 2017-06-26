@@ -15,7 +15,8 @@
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
         "nenad/yii2-password-strength": "*",
-        "mihaildev/yii2-ckeditor": "*"
+        "mihaildev/yii2-ckeditor": "*",
+        "mdmsoft/yii2-admin": "2.x-dev"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
@@ -27,10 +28,8 @@
     },
     "config": {
         "vendor-dir": "_protected/vendor",
-        "process-timeout": 1800
-    },
-    "extra": {
-        "asset-installer-paths": {
+        "process-timeout": 1800,
+        "fxp-asset.installer-paths": {
             "npm-asset-library": "_protected/vendor/npm",
             "bower-asset-library": "_protected/vendor/bower"
         }

@@ -32,6 +32,7 @@ class ComposerStaticInitc92f650159a9e2dab33a3ddd40d4070b
         'm' => 
         array (
             'mihaildev\\ckeditor\\' => 19,
+            'mdm\\admin\\' => 10,
         ),
         'c' => 
         array (
@@ -92,6 +93,10 @@ class ComposerStaticInitc92f650159a9e2dab33a3ddd40d4070b
         'mihaildev\\ckeditor\\' => 
         array (
             0 => __DIR__ . '/..' . '/mihaildev/yii2-ckeditor',
+        ),
+        'mdm\\admin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mdmsoft/yii2-admin',
         ),
         'cebe\\markdown\\' => 
         array (

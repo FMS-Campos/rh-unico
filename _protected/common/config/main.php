@@ -1,6 +1,6 @@
 <?php
 return [
-    'name' => 'My Company',
+    'name' => 'FunCad - Cadastro Funcional',
     //'language' => 'sr',
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'components' => [

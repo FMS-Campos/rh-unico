@@ -10039,3 +10039,69 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1498472157.587
     'REQUEST_TIME' => 1498472157
 ]
+2017-06-26 23:02:07 [::1][-][kai3gmcbvt1dkan9sec2u1sbo5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/admin' in D:\wamp64\www\rh-unico\_protected\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 D:\wamp64\www\rh-unico\_protected\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('admin', Array)
+#1 D:\wamp64\www\rh-unico\_protected\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/admin', Array)
+#2 D:\wamp64\www\rh-unico\_protected\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\wamp64\www\rh-unico\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\wamp64\www\rh-unico\_protected\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 D:\wamp64\www\rh-unico\_protected\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\wamp64\www\rh-unico\index.php(18): yii\base\Application->run()
+#2 {main}
+2017-06-26 23:02:03 [::1][-][kai3gmcbvt1dkan9sec2u1sbo5][info][application] $_COOKIE = [
+    '8155077530df7e350534531d8164a8bf' => '15774b89ebefced848b6d60213e49a10'
+    '_frontendSessionId' => 'kq4dsf0k2vricceim15k38qnj6'
+    '_frontendCsrf' => 'fad35f612546ca06974f2093678851ecd2b2254d94acfa5504be69d69877d0ada:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"-fy71REOJopT_GIWEnq8UwdjO96rmAzp\";}'
+    '_csrf' => '632f858318490ed9fb43d04502074547d85b25200d6e28ea4511ca6f0962526fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"QôäjŠÉÿNlVqøÞøÞ)	£~¯F=¨3SÀÁT\";}'
+    '_identity' => '83300356d556c6d0bf16bb1bbc814d49028d19c3054aeab745789b0aeb93d5e9a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"ItOT5jspAJxJtbJu0IYFt_3nV6OS-uM0\",2592000]\";}'
+    'PHPSESSID' => 'kai3gmcbvt1dkan9sec2u1sbo5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '8155077530df7e350534531d8164a8bf=15774b89ebefced848b6d60213e49a10; _frontendSessionId=kq4dsf0k2vricceim15k38qnj6; _frontendCsrf=fad35f612546ca06974f2093678851ecd2b2254d94acfa5504be69d69877d0ada%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22-fy71REOJopT_GIWEnq8UwdjO96rmAzp%22%3B%7D; _csrf=632f858318490ed9fb43d04502074547d85b25200d6e28ea4511ca6f0962526fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Q%F4%E4j%8A%C9%13%FFNlVq%F8%DE%F8%DE%29%09%A3%7E%AFF%0C%3D%0D%A8%133S%C0%C1T%22%3B%7D; _identity=83300356d556c6d0bf16bb1bbc814d49028d19c3054aeab745789b0aeb93d5e9a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22ItOT5jspAJxJtbJu0IYFt_3nV6OS-uM0%22%2C2592000%5D%22%3B%7D; PHPSESSID=kai3gmcbvt1dkan9sec2u1sbo5'
+    'PATH' => 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\wamp64\\bin\\php\\php5.6.25;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) PHP/5.6.25 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) PHP/5.6.25'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'D:/wamp64/www'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/wamp64/www'
+    'SERVER_ADMIN' => 'wampserver@wampserver.invalid'
+    'SCRIPT_FILENAME' => 'D:/wamp64/www/rh-unico/index.php'
+    'REMOTE_PORT' => '54543'
+    'REDIRECT_URL' => '/rh-unico/site/admin'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rh-unico/site/admin'
+    'SCRIPT_NAME' => '/rh-unico/index.php'
+    'PHP_SELF' => '/rh-unico/index.php'
+    'REQUEST_TIME_FLOAT' => 1498518123.069
+    'REQUEST_TIME' => 1498518123
+]

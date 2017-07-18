@@ -2,15 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/wamp64/www/rh-unico/README.md</file>
-            <file>file:/D:/wamp64/www/rh-unico/_protected/environments/dev/_protected/frontend/config/main-local.php</file>
-            <file>file:/D:/wamp64/www/rh-unico/themes/spacelab/css/bootstrap.css</file>
-            <file>file:/D:/wamp64/www/rh-unico/composer.json</file>
-            <file>file:/D:/wamp64/www/rh-unico/_protected/frontend/views/layouts/main.php</file>
-            <file>file:/D:/wamp64/www/rh-unico/_protected/frontend/controllers/FrontendController.php</file>
-            <file>file:/D:/wamp64/www/rh-unico/_protected/frontend/config/main.php</file>
-            <file>file:/D:/wamp64/www/rh-unico/_protected/common/config/main.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
